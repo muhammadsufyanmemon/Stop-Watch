@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 2em;
+    position: relative;
+    top: 42px;
+}
+h3{
+    color: black;
+}
+.sub{
+    margin: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 10px 80px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: black;
+    color:  white;
+    cursor: pointer;
+}
+#hour{
+    padding: 5px;
+    font-size: 16px;
+    width: 40px;
+}
+#min{
+    padding: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 8px;
+}
+#sec{
+    padding: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 13px;
+}
+#pause{
+    display: none;
+    padding: 10px 80px;
+}
+#reset{
+    display: none;
+    padding: 10px 35px;
+}
+#resume{
+    display: none;
+    padding: 10px 35px;
+}
